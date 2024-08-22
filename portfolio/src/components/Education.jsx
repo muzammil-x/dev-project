@@ -75,7 +75,7 @@ const Education = () => {
         </div>
         <div className="w-full lg:w-1/2 px-4">
           <img
-            src="../../public/education-img.jpg"
+            src="/education-img.jpg"
             alt="Education"
             className="w-full h-auto rounded-lg shadow-md"
           />

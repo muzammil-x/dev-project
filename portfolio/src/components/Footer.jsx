@@ -11,11 +11,7 @@ const Footer = () => {
     <footer className="bg-gray-100 px-20 py-20">
       <div className="flex justify-between items-center">
         <div className="w-1/3">
-          <img
-            src="../../../public/logod.png"
-            alt="logo"
-            className="h-8 mb-2"
-          />
+          <img src="/logod.png" alt="logo" className="h-8 mb-2" />
           <p className="text-gray-600 text-sm">
             All rights reserved Codefly © 2024
           </p>
