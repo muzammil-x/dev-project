@@ -7,7 +7,6 @@ import Education from "./components/Education";
 import FunFacts from "./components/FunFacts";
 import Footer from "./components/Footer";
 import Offer from "./components/Offer";
-import Abc from "./components/abc";
 
 const App = () => {
   return (
