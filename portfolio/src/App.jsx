@@ -15,10 +15,10 @@ const App = () => {
       <div className="bg-s[#2E2E37] w-full h-screen ">
         <Banner />
         <Cards />
-        <Pricing />
-        <Education />
-        <FunFacts />
         <Offer />
+        <Pricing />
+        <FunFacts />
+        <Education />
         <Footer />
       </div>
     </>

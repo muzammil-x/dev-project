@@ -1,7 +1,7 @@
 function Offer() {
   return (
     <>
-      <div className="main bg-[#25262F] flex flex-col items-center justify-center p-10 w-auto">
+      <div className="main bg-[#25262F] flex flex-col items-center justify-center p-16 w-auto">
         <div>
           <h1 className="font-semibold text-xl text-[#80DB66]">SERVICES</h1>
         </div>
