@@ -27,7 +27,7 @@ const Footer = () => {
             />
             <button
               type="submit"
-              className="bg-[#80DB66] text-white font-bold py-2 px-4 rounded sm:w-1/4"
+              className="bg-[#80DB66] text-white font-bold py-2 px-4 rounded w-full sm:w-auto"
             >
               Submit
             </button>
