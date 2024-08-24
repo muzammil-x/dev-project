@@ -3,11 +3,11 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
   return (
-    <div className="container mx-auto p-4 ">
+    <div className="container mx-auto p-4">
       <div className="flex flex-wrap -mx-4">
-        <div className=" w-full lg:w-1/2 mb-4 lg:mb-0">
-          <div className="edu flex flex-col justify-between sm:py-20 w-full h-[822px] rounded-lg">
-            <div className="flex flex-col gap-3 md:px-32 sm:px-8">
+        <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
+          <div className="edu flex flex-col justify-between py-10 sm:py-16 w-full h-auto rounded-lg">
+            <div className="flex flex-col gap-3 px-4 sm:px-8 md:px-32">
               <h1 className="text-sm font-semibold text-[#80DB66]">
                 EDUCATION
               </h1>
@@ -19,13 +19,12 @@ const Education = () => {
                 charini hoye khbor nio na sit voluptatem accusantium dolore.
               </p>
             </div>
-            <div className="flex flex-row gap-4 sm:px-8 md:px-32">
-              <div className="mt-2 text-xl h-10 p-4  text-white bg-[#80DB66] flex items-center  rounded  cursor-pointer">
+            <div className="flex flex-row gap-4 px-4 sm:px-8 md:px-32 mt-4">
+              <div className="text-xl h-10 p-4 text-white bg-[#80DB66] flex items-center rounded cursor-pointer">
                 <FaGraduationCap />
               </div>
-
               <div>
-                <p className="text-xl font-semibold text-[#2E2E37] ">
+                <p className="text-xl font-semibold text-[#2E2E37]">
                   Masters in Computer Science
                 </p>
                 <h1 className="text-xs p-2 text-[#2E2E37] font-semibold">
@@ -37,12 +36,12 @@ const Education = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row h-auto gap-4 sm:px-8 md:px-32">
-              <div className="mt-2 text-xl h-10 p-4  text-white bg-[#80DB66] flex items-center  rounded  cursor-pointer">
+            <div className="flex flex-row gap-4 px-4 sm:px-8 md:px-32 mt-4">
+              <div className="text-xl h-10 p-4 text-white bg-[#80DB66] flex items-center rounded cursor-pointer">
                 <FaGraduationCap />
               </div>
               <div>
-                <p className="text-xl font-semibold text-[#2E2E37] ">
+                <p className="text-xl font-semibold text-[#2E2E37]">
                   Bachelor in Computer Engineering
                 </p>
                 <h1 className="text-xs p-2 text-[#2E2E37] font-semibold">
@@ -54,12 +53,12 @@ const Education = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-row gap-4 sm:px-8 md:px-32">
-              <div className="mt-2 text-xl h-10 p-4  text-white bg-[#80DB66] flex items-center  rounded  cursor-pointer">
+            <div className="flex flex-row gap-4 px-4 sm:px-8 md:px-32 mt-4">
+              <div className="text-xl h-10 p-4 text-white bg-[#80DB66] flex items-center rounded cursor-pointer">
                 <FaGraduationCap />
               </div>
               <div>
-                <p className="text-xl font-semibold text-[#2E2E37] ">
+                <p className="text-xl font-semibold text-[#2E2E37]">
                   Diploma in Graphic Design
                 </p>
                 <h1 className="text-xs p-2 text-[#2E2E37] font-semibold">
@@ -73,7 +72,7 @@ const Education = () => {
             </div>
           </div>
         </div>
-        <div className="w-full lg:w-1/2 px-4">
+        <div className="w-full lg:w-1/2 px-4 mt-8 lg:mt-0">
           <img
             src="/education-img.jpg"
             alt="Education"

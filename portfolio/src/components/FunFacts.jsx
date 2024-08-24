@@ -18,8 +18,8 @@ export default function FunFacts() {
           </div>
         </div>
 
-        <div className="sm:grid sm:grid-cols-2 p-10    ">
-          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-2   ">
+        <div className="sm:grid sm:grid-cols-2  p-10    ">
+          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px]  m-5    ">
             <div className="text-[#80DB66] text-[62px] font-bold">12</div>
             <div>
               <div className="text-white text-xl">Years of </div>
@@ -27,7 +27,7 @@ export default function FunFacts() {
             </div>
           </div>
 
-          <div className=" flex justify-center items-center space-x-4    border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2    ml-[15px] mr-[15px] m-2">
+          <div className=" flex justify-center items-center space-x-4    border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2    ml-[15px] mr-[15px] m-5 ">
             <div className="text-[#80DB66] text-[62px] font-bold">2k</div>
             <div>
               <div className="text-white text-xl">Total </div>
@@ -35,7 +35,7 @@ export default function FunFacts() {
             </div>
           </div>
 
-          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px] m-2">
+          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px] m-5">
             <div className="text-[#80DB66] text-[62px] font-bold">4k</div>
             <div>
               <div className="text-white text-xl">Projects </div>
@@ -43,7 +43,7 @@ export default function FunFacts() {
             </div>
           </div>
 
-          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px] m-2">
+          <div className=" flex justify-center items-center space-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5 lg:m-2  ml-[15px] mr-[15px] m-5">
             <div className="text-[#80DB66] text-[62px] font-bold">30</div>
             <div>
               <div className="text-white text-xl">Digital </div>
