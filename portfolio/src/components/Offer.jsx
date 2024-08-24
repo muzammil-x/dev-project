@@ -1,7 +1,10 @@
 function Offer() {
   return (
     <>
-      <div className="main bg-[#25262F] flex flex-col items-center justify-center p-8 lg:p-16 w-auto">
+      <div
+        id="services"
+        className="main bg-[#25262F] flex flex-col items-center justify-center p-8 lg:p-16 w-auto"
+      >
         <div className="text-center">
           <h1 className="font-semibold text-lg lg:text-xl text-[#80DB66]">
             SERVICES

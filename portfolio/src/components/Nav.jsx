@@ -6,11 +6,11 @@ import { IoClose } from "react-icons/io5";
 export default function Nav() {
   let menu = [
     { name: "Home", link: "#" },
-    { name: "About", link: "#" },
-    { name: "Work", link: "#" },
-    { name: "Service", link: "#" },
-    { name: "Contact", link: "#" },
-    { name: "Blog", link: "#" },
+    { name: "About", link: "#banner" },
+    { name: "Work", link: "#work" },
+    { name: "Service", link: "#services" },
+    { name: "Fun Facts", link: "#fun-facts" },
+    { name: "Price", link: "#price" },
   ];
 
   const [open, setOpen] = useState(false);

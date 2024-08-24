@@ -1,7 +1,10 @@
 function Cards() {
   return (
     <>
-      <div className="bg-[#E2ECF6] h-auto flex flex-col pb-14 items-center lg:flex-row lg:p-10 lg:pt-24 lg:pb-24  sm:justify-center sm:ml-0 sm:items-center">
+      <div
+        id="work"
+        className="bg-[#E2ECF6] h-auto flex flex-col pb-14 items-center lg:flex-row lg:p-10 lg:pt-24 lg:pb-24  sm:justify-center sm:ml-0 sm:items-center"
+      >
         <div className="bg-white w-80 h-[320px] mt-14 rounded-xl [10px] pt-10 pl-12 pr-[40px] text-left sm:w-[390px] sm:mx-auto lg:w-[230px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px] lg:mt-[-50px] xl:w-[280px] xl:h-[365px] xl:pt-10 xl:pl-11">
           <div>
             <img src="/1.png" className="w-10 pb-5 pt-4 xl:w-20" />

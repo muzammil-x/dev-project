@@ -1,7 +1,7 @@
 function Pricing() {
   return (
     <>
-      <section className="bg-[#F1F9F9] ">
+      <section id="price" className="bg-[#F1F9F9] ">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
           <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
             <h2 className="mb-4 text-md   text-[#80DB66] ">

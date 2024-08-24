@@ -3,7 +3,7 @@ import { FaGraduationCap } from "react-icons/fa";
 
 const Education = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div id="banner" className="container mx-auto p-4">
       <div className="flex flex-wrap -mx-4">
         <div className="w-full lg:w-1/2 mb-4 lg:mb-0">
           <div className="edu flex flex-col justify-between py-10 sm:py-16 w-full h-auto rounded-lg">
