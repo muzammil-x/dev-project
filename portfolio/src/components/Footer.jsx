@@ -17,7 +17,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="w-full sm:w-1/3 mb-4 sm:mb-0 text-left">
-          <h3 className="font-semibold mb-2">Newsletter</h3>
+          <h3 className="font-bold text-[#2E2E37] mb-2">Newsletter</h3>
           <form action="#" method="POST" className="flex flex-col sm:flex-row">
             <input
               type="email"
@@ -34,7 +34,7 @@ const Footer = () => {
           </form>
         </div>
         <div className="w-full sm:w-1/3 text-left sm:text-right">
-          <p className="text-gray-600 font-semibold sm:mr-5 mb-2">Follow Me</p>
+          <p className="text-[#2E2E37] font-bold sm:mr-5 mb-2">Follow Me</p>
           <div className="flex justify-start sm:justify-end space-x-3">
             <FaFacebookF className="text-blue-600" />
 
