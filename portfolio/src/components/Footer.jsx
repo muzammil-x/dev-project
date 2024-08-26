@@ -41,12 +41,15 @@ const Footer = () => {
           </section>
 
           <nav className="w-full sm:w-1/3 text-left sm:text-right">
-            <p className="text-[#2E2E37] font-bold sm:mr-5 mb-2">Follow Me</p>
+            <p className="text-[#2E2E37] font-bold sm:mr-[100px] mb-2">
+              Follow Me
+            </p>
             <div className="flex justify-start sm:justify-end space-x-3">
-              <FaFacebookF className="text-white rounded-2xl border-4 border-[#1877F2] bg-[#1877F2] " />
-              <FaTwitter className="text-white rounded-2xl border-4 border-[#1877F2] bg-[#1877F2] " />
-              <FaLinkedinIn className="text-white rounded-2xl border-4 border-[#1877F2] bg-[#1877F2] " />
-              <FaInstagram className="text-white rounded-2xl border-4 border-[#1877F2] bg-[#1877F2] " />
+              <FaFacebookF className="text-white rounded-2xl border-8 border-[#1877F2] bg-[#1877F2] text-4xl" />
+
+              <FaTwitter className="text-white rounded-2xl border-8 border-[#1DA1F2] bg-[#1DA1F2] text-4xl" />
+              <FaLinkedinIn className="text-white rounded-2xl border-8 border-[#0077B5] bg-[#0077B5] text-4xl" />
+              <FaInstagram className="text-white rounded-2xl border-8 border-[#405DE6] bg-[#405DE6] text-4xl " />
             </div>
           </nav>
         </div>
