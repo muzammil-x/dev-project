@@ -12,7 +12,7 @@ const App = () => {
   return (
     <>
       <Nav />
-      <div className="bg-s[#2E2E37] w-full h-screen ">
+      <div className="bg-s[#2E2E37] overflow-x-hidden ">
         <Banner />
         <Cards />
         <Offer />
