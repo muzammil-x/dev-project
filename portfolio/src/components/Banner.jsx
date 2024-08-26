@@ -6,11 +6,8 @@ import { FaYoutube } from "react-icons/fa";
 function Banner() {
   return (
     <>
-      <section
-        
-        className="bg-[#25262F] w-full pt-40 pb-[90px] md:pb-[123px]   "
-      >
-        <div className="flex flex-col justify-center items-center relative lg:flex-row lg:justify-around">
+      <section className="bg-[#25262F] w-full pt-40 pb-[90px] md:pb-[123px]   ">
+        <div className="container mx-auto flex flex-col justify-center items-center relative lg:flex-row lg:justify-around">
           <div className="flex flex-col justify-center items-center mt-9  lg:items-start  xl:ml-5">
             <div className="text-[18px] tracking-[4px] text-[#80DB66] lg:text-3xl ">
               HELLO I'AM
