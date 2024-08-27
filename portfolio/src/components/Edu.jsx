@@ -3,7 +3,10 @@ import { FaGraduationCap } from "react-icons/fa";
 const Edu = () => {
   return (
     <>
-      <div className="  container mx-auto  p-5 sm:p-14 md:p-17 lg:p-10 lg:flex lg:space-x-32   xl:space-x-28   2xl:space-x-28   2xl:justify-center ">
+      <div
+        id="banner"
+        className="  container mx-auto  p-5 sm:p-14 md:p-17 lg:p-10 lg:flex lg:space-x-32   xl:space-x-28   2xl:space-x-28   2xl:justify-center "
+      >
         <div className="education-left  lg:w-[600px]   ">
           <div className="text-[#80DB66] text-xl tracking-[2px]  md:tracking-[5px] md:text-xl ">
             Education
