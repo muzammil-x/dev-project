@@ -9,8 +9,7 @@ export default function Nav() {
     { name: "About", link: "#banner" },
     { name: "Work", link: "#work" },
     { name: "Service", link: "#services" },
-    { name: "Fun Facts", link: "#fun-facts" },
-    { name: "Price", link: "#price" },
+    { name: "Facts", link: "#facts" },
   ];
 
   const [open, setOpen] = useState(false);

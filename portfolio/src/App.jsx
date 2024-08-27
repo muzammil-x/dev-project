@@ -4,9 +4,9 @@ import Banner from "./components/Banner";
 import Pricing from "./components/Pricing";
 import Cards from "./components/Cards";
 import Education from "./components/Education";
-import FunFacts from "./components/FunFacts";
 import Footer from "./components/Footer";
 import Offer from "./components/Offer";
+import Facts from "./components/Facts";
 
 const App = () => {
   return (
@@ -17,7 +17,7 @@ const App = () => {
         <Cards />
         <Offer />
         <Pricing />
-        <FunFacts />
+        <Facts />
         <Education />
         <Footer />
       </div>
