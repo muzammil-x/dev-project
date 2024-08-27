@@ -40,7 +40,7 @@ const Footer = () => {
             </form>
           </section>
 
-          <nav className="w-full sm:w-1/3 text-left sm:text-right">
+          <section className="w-full sm:w-1/3 text-left sm:text-right">
             <p className="text-[#2E2E37] font-bold sm:mr-[100px] mb-2">
               Follow Me
             </p>
@@ -51,7 +51,7 @@ const Footer = () => {
               <FaLinkedinIn className="text-white rounded-2xl border-8 border-[#0077B5] bg-[#0077B5] text-4xl" />
               <FaInstagram className="text-white rounded-2xl border-8 border-[#405DE6] bg-[#405DE6] text-4xl " />
             </div>
-          </nav>
+          </section>
         </div>
       </div>
     </footer>
