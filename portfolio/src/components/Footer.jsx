@@ -5,6 +5,7 @@ import {
   FaLinkedinIn,
   FaInstagram,
 } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
 
 const Footer = () => {
   return (
@@ -20,24 +21,17 @@ const Footer = () => {
 
           <section className="w-full sm:w-1/3 mb-4 sm:mb-0 text-left">
             <h3 className="font-bold text-[#2E2E37] mb-2">Newsletter</h3>
-            <form
-              action="#"
-              method="POST"
-              className="flex flex-col sm:flex-row"
-            >
+            <div className="relative">
               <input
                 type="email"
                 placeholder="Submit your email"
                 required
-                className="border border-gray-300 bg-gray-100 p-2 mb-2 sm:mb-0 sm:w-3/4 mr-2"
+                className="border border-gray-300 bg-gray-100 p-2 pr-10 w-full"
               />
-              <button
-                type="submit"
-                className="bg-[#80DB66] text-white font-bold py-2 px-4 rounded w-32 sm:w-auto"
-              >
-                Submit
-              </button>
-            </form>
+              <span className="absolute inset-y-0 right-0 flex items-center pr-3">
+                <CiMail className="text-[#80DB66] text-3xl cursor-pointer" />
+              </span>
+            </div>
           </section>
 
           <section className="w-full sm:w-1/3 text-left sm:text-right">
