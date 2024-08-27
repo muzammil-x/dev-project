@@ -27,7 +27,7 @@ function Fun() {
               {card.map((fact, index) => (
                 <div
                   key={index}
-                  className="lg:w-[220px] xl:w-[270px] 2xl:w-[300px] flex justify-center items-center gap-x-3 border-[1px] border-[#bcc7d3] rounded-lg p-7 lg:p-5"
+                  className="lg:w-[220px] xl:w-[270px] 2xl:w-[300px] flex justify-center items-center gap-x-4 border-[1px] border-[#bcc7d3] rounded-lg p-10 lg:p-7 md:pl-16"
                 >
                   <div className="text-[#80DB66] text-[62px] font-bold">
                     {fact.value}
