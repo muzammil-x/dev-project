@@ -16,7 +16,7 @@ function Offer() {
           <div className="sm:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5 py-5">
             <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
               <div>
-                <img src="/o2.png" alt="Web Development" />
+                <img src="/o2.png" alt="web-development" />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
@@ -30,7 +30,7 @@ function Offer() {
             </div>
             <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
               <div>
-                <img src="/o3.png" alt="Software Development" />
+                <img src="/o3.png" alt="software-development" />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
@@ -44,7 +44,7 @@ function Offer() {
             </div>
             <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
               <div>
-                <img src="/o4.png" alt="System Development" />
+                <img src="/o4.png" alt="system-development" />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
@@ -58,7 +58,7 @@ function Offer() {
             </div>
             <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
               <div>
-                <img src="/o1.png" alt="Security Analysis" />
+                <img src="/o1.png" alt="security-analysis" />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">

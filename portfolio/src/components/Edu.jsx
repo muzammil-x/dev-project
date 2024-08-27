@@ -79,7 +79,7 @@ const Edu = () => {
         </div>
 
         <div className="education-right mt-10 md:flex md:justify-center ">
-          <img src="education-img.jpg" alt="education Image" />
+          <img src="education-img.jpg" alt="education-image" />
         </div>
       </div>
     </>

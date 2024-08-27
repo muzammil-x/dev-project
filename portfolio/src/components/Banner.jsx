@@ -31,7 +31,7 @@ function Banner() {
             </div>
           </div>
           <div className="mt-[120px] lg:mt-[100px] h-64 w-80 lg:w-[30rem] lg:h-[10rem] md:pt-16 lg:pt-0 flex justify-center items-center">
-            <img src="/person.png" alt="" className="mt-4" />
+            <img src="/person.png" alt="my-image" className="mt-4" />
           </div>
           <div className="hidden  md:block absolute top-[120px] right-6  text-white w-16  space-y-3">
             <div className="text-xl border border-white flex justify-center items-center p-4 rounded hover:bg-[#80DB66] duration-500 cursor-pointer">

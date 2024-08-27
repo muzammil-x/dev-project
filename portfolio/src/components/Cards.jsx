@@ -5,7 +5,11 @@ function Cards() {
         <div className=" container lg:mx-auto flex flex-col pb-14 items-center lg:flex-row md:flex-wrap md:mx-auto lg:p-10 lg:pt-24 lg:pb-24  sm:justify-center sm:mx-auto sm:items-center">
           <div className="bg-white w-80 h-[320px] mt-14 rounded-xl [10px] pt-10 pl-12 pr-[40px] text-left sm:w-[390px] sm:mx-auto lg:w-[230px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px] lg:mt-[-50px] xl:w-[280px] xl:h-[365px] xl:pt-10 xl:pl-11">
             <div>
-              <img src="/1.png" className="w-10 pb-5 pt-4 xl:w-20" />
+              <img
+                alt="dedication"
+                src="/1.png"
+                className="w-10 pb-5 pt-4 xl:w-20"
+              />
             </div>
             <div className="text-2xl font-bold pb-3 text-[#2e2e37] xl:text-[23px]">
               Dedication
@@ -17,7 +21,11 @@ function Cards() {
           </div>
           <div className="bg-white w-80 h-[320px] mt-20 rounded-[10px] pt-10 pl-12 pr-12 text-left sm:w-[390px] sm:mx-auto lg:w-[230px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px] xl:w-[280px] xl:h-[365px] xl:pt-10 xl:pl-11">
             <div>
-              <img src="/2.png" className="w-10 pb-5 pt-4 xl:w-20" />
+              <img
+                alt="smark"
+                src="/2.png"
+                className="w-10 pb-5 pt-4 xl:w-20"
+              />
             </div>
             <div className="text-2xl font-bold pb-3 text-[#2e2e37] xl:text-[23px]">
               Smart Work
@@ -29,7 +37,11 @@ function Cards() {
           </div>
           <div className="bg-white w-80 h-[320px] mt-14 rounded-xl [10px] pt-10 pl-12 pr-[40px] text-left sm:w-[390px] sm:mx-auto lg:w-[230px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px] lg:mt-[-50px] xl:w-[280px] xl:h-[365px] xl:pt-10 xl:pl-11">
             <div>
-              <img src="/3.png" className="w-10 pb-5 pt-4 xl:w-[55px]" />
+              <img
+                alt="collab"
+                src="/3.png"
+                className="w-10 pb-5 pt-4 xl:w-[55px]"
+              />
             </div>
             <div className="text-2xl font-bold pb-3 text-[#2e2e37] xl:text-[23px]">
               Collaboration
@@ -41,7 +53,7 @@ function Cards() {
           </div>
           <div className="bg-white w-80 h-[320px] mt-20 rounded-[10px] pt-10 pl-12 pr-12 text-left sm:w-[390px] sm:mx-auto lg:w-[230px] lg:pl-[22px] lg:pr-5 lg:pt-5 lg:h-[310px] xl:w-[280px] xl:h-[365px] xl:pt-10 xl:pl-11">
             <div>
-              <img src="/4.png" className="w-10 pb-5 pt-4 xl:w-20" />
+              <img src="/4.png" alt="tech" className="w-10 pb-5 pt-4 xl:w-20" />
             </div>
             <div className="text-2xl font-bold pb-3 text-[#2e2e37] xl:text-[23px]">
               Technology

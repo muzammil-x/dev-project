@@ -12,7 +12,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-5">
           <section className="w-full sm:w-1/3 mb-4 sm:mb-0 text-left">
-            <img src="/logod.png" alt="logo" className="h-8 mb-2" />
+            <img src="/logod.png" alt="logo-dark" className="h-8 mb-2" />
             <p className="text-gray-600 text-sm">
               All rights reserved Codefly © 2024
             </p>
