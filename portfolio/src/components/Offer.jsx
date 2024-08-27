@@ -13,10 +13,10 @@ function Offer() {
               What I Offer
             </h3>
           </div>
-          <div className="sm:mt-8 grid grid-cols-1 sm:grid-cols-2 gap-5 py-5">
-            <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
-              <div>
-                <img src="/o2.png" alt="web-development" />
+          <div className="sm:mt-8 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-2 gap-5 py-5 max-w-4xl mx-auto">
+            <div className="bg-white flex flex-col sm:flex-row gap-5  rounded-xl px-5 py-5 lg:px-10 lg:py-10">
+              <div className="w-24 sm:w-32 lg:w-40 pt-2">
+                <img src="/o2.png" alt="web-development" className="w-full" />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
@@ -28,23 +28,31 @@ function Offer() {
                 </p>
               </div>
             </div>
-            <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
-              <div>
-                <img src="/o3.png" alt="software-development" />
+            <div className="bg-white flex flex-col sm:flex-row gap-5  rounded-xl px-5 py-5 lg:px-10 lg:py-10">
+              <div className="w-24 sm:w-32 lg:w-40 pt-2">
+                <img
+                  src="/o3.png"
+                  alt="software-development"
+                  className="w-full"
+                />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
                   Software Development
                 </h1>
-                <p className="text-sm lg:text-md">
+                <p className="text-sm lg:text-md ">
                   Ludantium totam rem aperia meaququae ab tatis et quasi
                   architecto beatae vit dunt ut labore et dolore magna aliqua.
                 </p>
               </div>
             </div>
-            <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
-              <div>
-                <img src="/o4.png" alt="system-development" />
+            <div className="bg-white flex flex-col sm:flex-row gap-5 rounded-xl px-5 py-5 lg:px-10 lg:py-10">
+              <div className="w-24 sm:w-32 lg:w-40 pt-2">
+                <img
+                  src="/o4.png"
+                  alt="system-development"
+                  className="w-full"
+                />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
@@ -56,9 +64,9 @@ function Offer() {
                 </p>
               </div>
             </div>
-            <div className="bg-white flex flex-col sm:flex-row gap-5 items-center rounded-xl px-5 py-5 lg:px-10 lg:py-10">
-              <div>
-                <img src="/o1.png" alt="security-analysis" />
+            <div className="bg-white flex flex-col sm:flex-row gap-5 rounded-xl px-5 py-5 lg:px-10 lg:py-10">
+              <div className="w-24 sm:w-32 lg:w-40 pt-2">
+                <img src="/o1.png" alt="security-analysis" className="w-full" />
               </div>
               <div>
                 <h1 className="font-semibold text-lg lg:text-xl">
